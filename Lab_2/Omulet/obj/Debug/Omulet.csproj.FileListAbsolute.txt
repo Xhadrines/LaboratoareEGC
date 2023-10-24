@@ -1,0 +1,14 @@
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\obj\Debug\Omulet.csproj.AssemblyReference.cache
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\obj\Debug\Omulet.csproj.CoreCompileInputs.cache
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\Omulet.exe.config
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\Omulet.exe
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\Omulet.pdb
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.dll
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.GLControl.dll
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.pdb
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.xml
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.GLControl.pdb
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\bin\Debug\OpenTK.GLControl.xml
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\obj\Debug\Omulet.csproj.CopyComplete
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\obj\Debug\Omulet.exe
+D:\Documents\Facultate\EGC\Lab 2 Tema\Omulet\Omulet\obj\Debug\Omulet.pdb
