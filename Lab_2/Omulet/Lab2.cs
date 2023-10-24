@@ -1,6 +1,6 @@
 ﻿/************************************************
  * Autor: Sandru Alexandru
- * Data: 23.07.2023
+ * Data: 23.10.2023
  * Descriere: Lucrare 2 pentru laboratorul de EGC
  ************************************************/
 
