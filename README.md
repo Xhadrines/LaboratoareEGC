@@ -1,0 +1,2 @@
+# LaboratoareEGC
+Laboratoare pentru EGC
