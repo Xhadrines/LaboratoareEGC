@@ -1,0 +1,14 @@
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\Lab_2.exe.config
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\Lab_2.exe
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\Lab_2.pdb
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.dll
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.GLControl.dll
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.pdb
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.xml
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.GLControl.pdb
+D:\GitHub\LaboratoareEGC\Lab_2\bin\Debug\OpenTK.GLControl.xml
+D:\GitHub\LaboratoareEGC\Lab_2\obj\Debug\Lab_2.csproj.AssemblyReference.cache
+D:\GitHub\LaboratoareEGC\Lab_2\obj\Debug\Lab_2.csproj.CoreCompileInputs.cache
+D:\GitHub\LaboratoareEGC\Lab_2\obj\Debug\Lab_2.csproj.CopyComplete
+D:\GitHub\LaboratoareEGC\Lab_2\obj\Debug\Lab_2.exe
+D:\GitHub\LaboratoareEGC\Lab_2\obj\Debug\Lab_2.pdb
