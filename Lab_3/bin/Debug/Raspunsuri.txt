@@ -1,0 +1,17 @@
+1. Ordinea de desenare a vertexurilor: OpenGL deseneaza primitive in functie de ordinul in care sunt specificate vertexurile. In acest caz, vertexurile sunt specificate in sens orar, deoarece mai intai se deseneaza axa X (rosie), apoi axa Y (verde) si in final axa Z (albastru).
+
+2. Anti-aliasing: Anti-aliasing este o tehnica utilizata pentru a imbunatati calitatea imaginilor in grafica computerizata. Scopul sau este sa reduca efectul de zimtare (jaggies) care apare atunci cand linii sau margini sunt desenate pe un ecran. Acesta functioneaza prin amestecarea culorilor pixelilor vecini pentru a crea o tranzitie mai lina intre obiecte.
+
+3. GL.LineWidth(float) si GL.PointSize(float): Aceste comenzi seteaza latimea liniei si dimensiunea punctelor pentru desenarea graficelor. Aceste comenzi functioneaza in interiorul unei zone GL.Begin() si afecteaza liniile si punctele desenate in acea zona. De exemplu, poti utiliza GL.LineWidth(2.0f) pentru a creste grosimea liniilor desenate intr-o sectiune.
+
+4. Directivele de desenare in OpenGL:
+GL_LINE_LOOP deseneaza un ciclu de linii care se inchide, formand un contur.
+GL_LINE_STRIP deseneaza o serie de segmente de linie consecutive.
+GL_TRIANGLE_FAN deseneaza un triunghi ventilator, cu un varf central si laturi care se extind din acesta.
+GL_TRIANGLE_STRIP deseneaza o banda de triunghiuri consecutive, fiecare avand o latura comuna cu cel precedent.
+
+6. Utilizarea culorilor diferite in desenarea obiectelor 3D: Folosirea culorilor diferite pentru obiecte 3D permite diferentierea si evidentierea componentelor individuale ale scenei. Acest lucru imbunatateste perceptia si intelegerea scenelor complexe si poate oferi indicii vizuale esentiale pentru utilizator.
+
+7. Gradient de culoare in OpenGL: Un gradient de culoare reprezinta o tranzitie lina intre doua sau mai multe culori. In OpenGL, acest lucru se poate obtine prin interpolarea culorilor intre vertexurile obiectelor desenate. Prin specificarea culorilor la fiecare vertex, OpenGL va interpola culorile pentru fragmentele individuale.
+
+10. Efectul utilizarii culorilor diferite pentru fiecare vertex: Atunci cand desenezi o linie sau un triunghi in mod strip si specifici culori diferite pentru fiecare vertex, OpenGL va interpola culorile intre vertexuri, dand un aspect de tranzitie de culoare pe intreaga lungime a liniei sau a triunghiului, ceea ce poate crea efecte interesante si estetice.

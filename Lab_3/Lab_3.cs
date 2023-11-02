@@ -5,17 +5,24 @@
  ************************************************/
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab_3
 {
     internal class Lab_3
     {
-        static void Main(string[] args)
+        [STAThread]
+        public static void Main()
         {
+            using (var window = new Window())
+            {
+                Raspunsurii raspunsurii = new Raspunsurii("Raspunsuri.txt");
+
+                raspunsurii.CitesteFisier();
+
+                Console.WriteLine("\nOptiuni:\n\tR - Schimba culoarea in rosu\n\tG - Schimba culoarea in verde\n\tB - Schimba culoarea in albastru\n");
+
+                window.Run(60.0);
+            }
         }
     }
 }

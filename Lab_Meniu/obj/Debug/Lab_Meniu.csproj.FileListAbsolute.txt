@@ -1,0 +1,14 @@
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\Lab_Meniu.exe.config
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\Lab_Meniu.exe
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\Lab_Meniu.pdb
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.dll
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.GLControl.dll
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.pdb
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.xml
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.GLControl.pdb
+D:\GitHub\LaboratoareEGC\Lab_Meniu\bin\Debug\OpenTK.GLControl.xml
+D:\GitHub\LaboratoareEGC\Lab_Meniu\obj\Debug\Lab_Meniu.csproj.AssemblyReference.cache
+D:\GitHub\LaboratoareEGC\Lab_Meniu\obj\Debug\Lab_Meniu.csproj.CoreCompileInputs.cache
+D:\GitHub\LaboratoareEGC\Lab_Meniu\obj\Debug\Lab_Meniu.csproj.CopyComplete
+D:\GitHub\LaboratoareEGC\Lab_Meniu\obj\Debug\Lab_Meniu.exe
+D:\GitHub\LaboratoareEGC\Lab_Meniu\obj\Debug\Lab_Meniu.pdb

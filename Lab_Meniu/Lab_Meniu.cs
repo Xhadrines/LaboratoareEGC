@@ -16,6 +16,10 @@ namespace Lab_Meniu
     {
         static void Main(string[] args)
         {
+            FullScreen fullScreen = new FullScreen();
+
+            fullScreen.GoFullScreen();
         }
     }
 }
+ 

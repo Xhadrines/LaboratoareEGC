@@ -1,0 +1,27 @@
+1. Ce este un viewport?
+Un viewport reprezinta o regiune dreptunghiulara a unei ferestre de afisare in care sunt desenate graficele. Este o parte a ecranului in care OpenGL deseneaza rezultatele grafice ale aplicatiei.
+
+2. Ce reprezinta conceptul de frames per seconds din punctul de vedere al bibliotecii OpenGL?
+FPS reprezinta numarul de cadre (imagini) afisate pe secunda intr-o aplicatie OpenGL. Aceasta masoara cat de repede este capabila aplicatia sa genereze si sa afiseze imagini noi pe ecran.
+
+3. Cand este rulata metoda OnUpdateFrame()?
+Aceasta metoda este rulata periodic in bucla principala a jocului si este utilizata pentru a actualiza starea aplicatiei, logica jocului sau animatia. Este apelata la fiecare cadru si este locul in care se gestioneaza logica jocului.
+
+4. Ce este modul imediat de randare?
+Modul imediat (Immediate Mode) de randare in OpenGL se refera la un mod vechi de desenare grafica in care se specifica fiecare vertex si proprietate grafica (cum ar fi culoarea) folosind functii precum glBegin() si glVertex(). Acest mod a fost invechit si nu mai este recomandat in OpenGL modern.
+
+5. Care este ultima versiune de OpenGL care accepta modul imediat?
+OpenGL 3.0 este ultima versiune a standardului OpenGL care mai suporta modul imediat. Incepand cu OpenGL 3.1, modul imediat a fost eliminat si a fost introdusa o abordare bazata pe buffer (buffer-based rendering).
+
+6. Cand este rulata metoda OnRenderFrame()?
+Aceasta metoda este rulata la fiecare cadru si este locul in care se efectueaza randarea graficelor. Aici sunt desenate obiectele si scenele pentru fiecare cadru.
+
+7. De ce este nevoie ca metoda OnResize() sa fie executata cel putin o data?
+Metoda OnResize() este necesara pentru a ajusta setarile OpenGL, cum ar fi viewport-ul, atunci cand fereastra de afisare se modifica in dimensiune. Aceasta asigura ca cadrul grafic este ajustat corespunzator la noile dimensiuni ale ferestrei.
+
+8. Ce reprezinta parametrii metodei CreatePerspectiveFieldOfView() si care este domeniul de valori pentru acestia?
+Aceasta metoda este utilizata pentru a crea o matrice de perspectiva si are urmatorii parametri:
+	-fovy (Field of View Y): Unghiul de vedere vertical al camerei in radiani.
+	-aspect (Aspect Ratio): Raportul de aspect (latime / inaltime) al ferestrei sau a scenei.
+	-zNear (Near Clipping Plane): Distanța la care obiectele mai apropiate de camera sunt incepe sa fie taiate (de obicei pozitiva).
+	-zFar (Far Clipping Plane): Distanța la care obiectele mai indepartate de camera sunt taiate (de obicei pozitiva).
