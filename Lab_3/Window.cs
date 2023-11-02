@@ -52,15 +52,12 @@ namespace Lab_3
         {
             var keyboard = Keyboard.GetState();
 
-            // Verifică tastatura pentru modificarea culorii
             if (keyboard[Key.R])
                 triangleColor = new float[] { 1.0f, 0.0f, 0.0f };  // Roșu
             else if (keyboard[Key.G])
                 triangleColor = new float[] { 0.0f, 1.0f, 0.0f };  // Verde
             else if (keyboard[Key.B])
                 triangleColor = new float[] { 0.0f, 0.0f, 1.0f };  // Albastru
-
-            // Mișcare cameră cu mouse (codul trebuie adăugat în OnUpdateFrame)
 
             HandleKeyboardInput();
             HandleMouseInput();
