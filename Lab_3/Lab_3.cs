@@ -13,7 +13,7 @@ namespace Lab_3
         [STAThread]
         public static void Main()
         {
-            using (var window = new Window())
+            using (Window start = new Window())
             {
                 Raspunsurii raspunsurii = new Raspunsurii("Raspunsuri.txt");
 
@@ -21,7 +21,7 @@ namespace Lab_3
 
                 Console.WriteLine("\nOptiuni:\n\tR - Schimba culoarea in rosu\n\tG - Schimba culoarea in verde\n\tB - Schimba culoarea in albastru\n");
 
-                window.Run(60.0);
+                start.Run(60.0);
             }
         }
     }
